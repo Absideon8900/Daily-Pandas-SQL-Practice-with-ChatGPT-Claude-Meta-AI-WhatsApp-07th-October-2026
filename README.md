@@ -1,4 +1,31 @@
 # Daily Pandas + SQL Practice with ChatGPT, Claude & Meta AI (WhatsApp) 07th October 2026
+<b>For each category, among only orders with</b> ```quantity >= 3;```</br>
+<ul>
+   <li> Find <b>the number of orders</b>
+   <li> Find <b>the total quantity</b>
+   <li> Find <b>the average unit price</b>
+</ul></br>
+<b>SQL concept</b><br>
+You will need:</br>
+
+```
+WHERE
+GROUP BY
+COUNT()
+SUM()
+AVG()
+```
+
+<b>Pandas concept</b></br>
+You will need:</br>
+```
+filtering
+groupby()
+count()
+sum()
+mean()
+```
+
 ```SQL
 sqlite> SELECT
    ...> category,
